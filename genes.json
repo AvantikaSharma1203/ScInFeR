@@ -1,0 +1,177 @@
+[
+  {
+    "celltype": "CD8+ T-cell",
+    "marker": "CD8A",
+    "weight": 1
+  },
+  {
+    "celltype": "CD8+ T-cell",
+    "marker": "CD8B",
+    "weight": 1
+  },
+  {
+    "celltype": "CD4+ T-cell",
+    "marker": "CD4",
+    "weight": 1
+  },
+  {
+    "celltype": "CD4+ T-cell",
+    "marker": "LTB",
+    "weight": 1
+  },
+  {
+    "celltype": "Naive B cell",
+    "marker": "P2RX5",
+    "weight": 1
+  },
+  {
+    "celltype": "Naive B cell",
+    "marker": "CD24",
+    "weight": 1
+  },
+  {
+    "celltype": "Naive B cell",
+    "marker": "IGHD",
+    "weight": 1
+  },
+  {
+    "celltype": "Memory B cell",
+    "marker": "CD27",
+    "weight": 1
+  },
+  {
+    "celltype": "Memory B cell",
+    "marker": "BACH2",
+    "weight": 1
+  },
+  {
+    "celltype": "Plasma cell",
+    "marker": "MZB1",
+    "weight": 1
+  },
+  {
+    "celltype": "Plasma cell",
+    "marker": "IGHG1",
+    "weight": 1
+  },
+  {
+    "celltype": "Plasma cell",
+    "marker": "JCHAIN",
+    "weight": 1
+  },
+  {
+    "celltype": "Monocyte",
+    "marker": "CD14",
+    "weight": 1
+  },
+  {
+    "celltype": "Monocyte",
+    "marker": "FCGR1A",
+    "weight": 1
+  },
+  {
+    "celltype": "Monocyte",
+    "marker": "CD68",
+    "weight": 1
+  },
+  {
+    "celltype": "Neutrophil",
+    "marker": "CSF3R",
+    "weight": 1
+  },
+  {
+    "celltype": "Neutrophil",
+    "marker": "TREM1",
+    "weight": 1
+  },
+  {
+    "celltype": "Neutrophil",
+    "marker": "IL1R2",
+    "weight": 1
+  },
+  {
+    "celltype": "Neutrophil",
+    "marker": "ADAM8",
+    "weight": 1
+  },
+  {
+    "celltype": "Erythrocyte",
+    "marker": "BLVRB",
+    "weight": 1
+  },
+  {
+    "celltype": "Erythrocyte",
+    "marker": "GYPC",
+    "weight": 1
+  },
+  {
+    "celltype": "Erythrocyte",
+    "marker": "AHSP",
+    "weight": 1
+  },
+  {
+    "celltype": "Erythrocyte",
+    "marker": "HBM",
+    "weight": 1
+  },
+  {
+    "celltype": "Nk cell",
+    "marker": "FCGR3A",
+    "weight": 1
+  },
+  {
+    "celltype": "Nk cell",
+    "marker": "CLIC3",
+    "weight": 2
+  },
+  {
+    "celltype": "Nk cell",
+    "marker": "NCAM1",
+    "weight": 1
+  },
+  {
+    "celltype": "T-cell",
+    "marker": "CD3D",
+    "weight": 1
+  },
+  {
+    "celltype": "T-cell",
+    "marker": "CD3E",
+    "weight": 1
+  },
+  {
+    "celltype": "T-cell",
+    "marker": "CD3G",
+    "weight": 1
+  },
+  {
+    "celltype": "T-cell",
+    "marker": "CD27",
+    "weight": 1
+  },
+  {
+    "celltype": "B cell",
+    "marker": "CD19",
+    "weight": 1
+  },
+  {
+    "celltype": "B cell",
+    "marker": "MS4A1",
+    "weight": 1
+  },
+  {
+    "celltype": "B cell",
+    "marker": "CD79A",
+    "weight": 1
+  },
+  {
+    "celltype": "CD8+ T-cell",
+    "marker": "NKG7",
+    "weight": 1
+  },
+  {
+    "celltype": "CD8+ T-cell",
+    "marker": "GNLY",
+    "weight": 1
+  }
+]

@@ -1,0 +1,281 @@
+
+body {
+    background-color: #f8f8f8;
+  }
+  
+
+  header {
+    background-color: rgb(225, 169, 238);
+    background-image: linear-gradient(210deg, #ffffff, #df83f0be); 
+    padding: 1px;
+    background-size: cover;
+    
+     
+    }
+  
+  header img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .ant-select {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center the icon and text horizontally */
+  }
+  
+  .header-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto; /* center the text horizontally */
+    transition: transform 0.5s ease-out; /* add a transition effect */
+  }
+  
+  .header-text:hover {
+    transform: translateY(-5px); /* move the text up on hover */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add a subtle shadow effect on hover */
+  }
+
+  h1{
+    color: #030103;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer
+  }
+  h1 span{
+    transition: .5s linear
+  }
+  h1:hover span:nth-child(1){
+    margin-right: 5px
+  }
+  h1:hover span:nth-child(1):after{
+    content: "'";
+  }
+  h1:hover span:nth-child(2){
+    margin-left: 30px
+  }
+  h1:hover span{
+    color: #38283b;
+    text-shadow: 0 0 10px #b483c7,
+                 0 0 20px #b483c7, 
+                 0 0 40px #b483c7;
+  }
+  
+
+
+
+
+
+
+
+
+
+  
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .dropdown-btn {
+    background-color: #a78ab3;
+    color: #fff;
+    border: none;
+    padding: 5px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    margin: 0 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-btn:hover {
+    background-color: #7321b2;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .dropdown-content li {
+    margin-bottom: 10px;
+  }
+  
+  .dropdown-content a {
+    color: #be88d5;
+
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #8e32ab;
+  }
+  
+  .dropdown-btn:focus + .dropdown-content {
+    display: block;
+  }
+  
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10;
+    margin: 0; /* add this to remove default margin */
+    padding: 0; /* add this to remove default padding */
+  }
+  .header-container {
+    height: 50px; /* set a fixed height for the header container */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* align items to the bottom */
+    padding-bottom: 20px; /* add some padding to the bottom */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .search-container {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    background: #b175cf;
+    padding: 5px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  
+
+
+
+
+  .search-box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #df83f0be;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; /* add this to center the input field and button */
+  }
+  
+  .search-box input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    cursor: text; /* change cursor type to pointer */
+  }
+  
+  .search-box button[type="button"] {
+    background-color: #df83f0be;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer; /* change cursor type to pointer */
+    width: 100%;
+  }
+
+  .search-btn {
+    padding: 8px;
+    margin: 20px;
+  }
+
+  
+  .tissue-box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .tissue-content-container {
+    width: 600px; /* fixed width */
+    height: 200px; /* fixed height */
+    overflow-y: auto; /* add scrollbar if content exceeds height */
+    padding: 20px;
+    border: 1px solid #ddd; /* boundary */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* optional shadow effect */
+    background-color: #f7f7f7; /* light gray background */
+    border-top: 3px solid #337ab7; /* blue top border */
+  }
+  
+  .tissue-content-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* hover effect */
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  a {
+    display: inline-block;
+    margin-right: 10px; /* add some space between elements */
+  }
+
+
+  .card-body span {
+    text-transform: uppercase;
+    font-size: 10px;
+  }
+
+  .ant-avatar-image img {
+    height: 30px;
+    width: 30px;
+  }
+
+
+  footer {
+    margin-top: auto;
+    background: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+#main {
+  margin-bottom: 100px; 
+
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 100px;
+            background-color: #f5f5f591; 
+            color: #fff; 
+            text-align: center;
+            line-height: 60px;
+          
+      }
+
+  
